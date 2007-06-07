@@ -1,0 +1,2 @@
+?package(kmess):needs="X11" section="Apps/Net"\
+  title="kmess" command="/usr/bin/kmess"

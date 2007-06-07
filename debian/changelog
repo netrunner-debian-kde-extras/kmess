@@ -1,0 +1,27 @@
+kmess (1.4.3-2) unstable; urgency=low
+
+  * Saven kmess.desktop as UTF-8 File. (Closes: #368844)
+
+ -- Mario Iseli <admin@marioiseli.com>  Sun,  4 Jun 2006 20:55:23 +0200
+
+kmess (1.4.3-1) unstable; urgency=low
+
+  * New upstream release
+  * Removed ballonbase.patch, it's fixed in the new upstream.
+
+ -- Mario Iseli <admin@marioiseli.com>  Sat, 20 May 2006 14:39:09 +0200
+
+kmess (1.4.2-2) unstable; urgency=medium
+
+  * Added a patch (debian/patches/01_ballonbase.patch) to fix
+    building. (Closes: #357764)
+
+ -- Mario Iseli <admin@marioiseli.com>  Tue, 21 Mar 2006 17:59:11 +0100
+
+kmess (1.4.2-1) unstable; urgency=low
+
+  * Initial release Closes: #339571
+  * wrote a manpage
+
+ -- Mario Iseli <admin@marioiseli.com>  Mon, 21 Nov 2005 19:07:16 +0100
+

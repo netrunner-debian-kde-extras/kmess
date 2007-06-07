@@ -1,0 +1,17 @@
+Source: kmess
+Section: net
+Priority: optional
+Maintainer: Mario Iseli <admin@marioiseli.com>
+Build-Depends: debhelper (>= 4.1), cdbs, zlib1g-dev, kdelibs4-dev, patchutils
+Standards-Version: 3.7.2
+
+Package: kmess
+Architecture: any
+Depends: ${shlibs:Depends}
+Suggests: kde-core
+Description: Instant messenger to use MSN on KDE
+ This is yet another messenger for Linux. It is optimized for KDE and
+ supports only MSN. If you use only MSN this is the package for you, but 
+ if you use also ICQ or others, it is recommended to use Kopete or Gaim.
+ .
+ Homepage:  http://kmess.sourceforge.net
