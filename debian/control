@@ -2,7 +2,7 @@ Source: kmess
 Section: net
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Mario Iseli <admin@marioiseli.com>
+Uploaders: Mario Iseli <admin@marioiseli.com>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 4.1), cdbs, zlib1g-dev, kdelibs4-dev, patchutils
 Standards-Version: 3.7.2
 

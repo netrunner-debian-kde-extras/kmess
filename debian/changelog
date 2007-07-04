@@ -1,9 +1,20 @@
-kmess (1.4.3-3) UNRELEASED; urgency=low
+kmess (1.5~pre2-1) experimental; urgency=low
 
-  * NOT RELEASED YET
+  * New upstream release
+    - Release highlights:
+       - added support for now playing information
+       - added file transfer previews
+       - fixed critical bugs with the direct file transfer
+       - fixed clickable links in the chat window
+       - fixed problems with emoticon styles
+       - fixed problems with the installation
+       - updated many translations
+    - Upload pre releases to experimental
   * Update debian/watch
+  * Maintainer: Debian KDE Extras Team
+    - Thanks to Mario Iseli for his work todate and welcome to the team!
 
- -- Mark Purcell <msp@debian.org>  Fri, 22 Jun 2007 17:32:05 +0100
+ -- Mark Purcell <msp@debian.org>  Wed, 04 Jul 2007 07:31:05 +0100
 
 kmess (1.4.3-2) unstable; urgency=low
 
