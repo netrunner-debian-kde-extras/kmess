@@ -1,9 +1,9 @@
-kmess (1.5~pre2-2) UNRELEASED; urgency=low
+kmess (1.5.1-1) UNRELEASED; urgency=low
 
-  * NOT RELEASED YET
+  * (NOT RELEASED YET) New upstream release
   * Add debian/rules get-orig-source target for http://buildserver.net
 
- -- Mark Purcell <msp@debian.org>  Wed, 04 Jul 2007 14:24:08 +0100
+ -- Mark Purcell <msp@debian.org>  Fri, 18 Apr 2008 01:16:15 +1000
 
 kmess (1.5~pre2-1) experimental; urgency=low
 
