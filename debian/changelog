@@ -1,9 +1,10 @@
-kmess (1.5.1-1) UNRELEASED; urgency=low
+kmess (2.0~beta1-1) UNRELEASED; urgency=low
 
-  * (NOT RELEASED YET) New upstream release
-  * Add debian/rules get-orig-source target for http://buildserver.net
+  * New upstream release
+  * Update Build-Depends: kdelibs5-dev (KDE4 release)
+  * Update Standards Version 3.8.1. Add Homepage: Vcs: headers
 
- -- Mark Purcell <msp@debian.org>  Fri, 18 Apr 2008 01:16:15 +1000
+ -- Mark Purcell <msp@debian.org>  Sun, 12 Apr 2009 13:19:16 +1000
 
 kmess (1.5~pre2-1) experimental; urgency=low
 
