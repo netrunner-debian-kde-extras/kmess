@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Mario Iseli <admin@marioiseli.com>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 4.1), cdbs, zlib1g-dev, patchutils, automoc, libxml2-dev, libxslt1-dev, libqca2-dev,
- kdelibs5-dev, libkonq5-dev, libphonon-dev
+ pkg-kde-tools, kdelibs5-dev, libkonq5-dev, libphonon-dev
 Standards-Version: 3.8.1
 Homepage:  http://kmess.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kmess/?op=log
@@ -12,8 +12,8 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kmess/trunk/
 
 Package: kmess
 Architecture: any
-Depends: ${shlibs:Depends}
-Suggests: kde-core
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: konqueror
 Description: MSN messenger for KDE
  An alternative MSN Messenger chat client for Linux. It allows Linux users
  to chat with friends who use MSN Messenger in Windows or Mac OS. The

@@ -1,12 +1,16 @@
-kmess (2.0~beta1-1) UNRELEASED; urgency=low
+kmess (2.0~beta1-1) unstable; urgency=low
 
   * New upstream release
+    - Closes: #516284, #515663, #449797, #460746
   * Update Build-Depends: kdelibs5-dev (KDE4 release)
   * Update Standards Version 3.8.1. Add Homepage: Vcs: headers
   * Build Depends: libkonq5-dev - context menu integration with Konqueror
   * Update other Build-Depends:
+  * Update debian/compat -> 7
+  * Add ${misc:Depends}
+  * kmess.menu section -> Applications/Network/Communication
 
- -- Mark Purcell <msp@debian.org>  Sun, 12 Apr 2009 13:29:05 +1000
+ -- Mark Purcell <msp@debian.org>  Sun, 12 Apr 2009 13:58:31 +1000
 
 kmess (1.5~pre2-1) experimental; urgency=low
 
