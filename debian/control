@@ -3,8 +3,8 @@ Section: net
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
 Uploaders: Mario Iseli <admin@marioiseli.com>, Mark Purcell <msp@debian.org>
-Build-Depends: debhelper (>= 4.1), cdbs, zlib1g-dev, patchutils,
- kdelibs5-dev, libkonq5-dev
+Build-Depends: debhelper (>= 4.1), cdbs, zlib1g-dev, patchutils, automoc, libxml2-dev, libxslt1-dev, libqca2-dev,
+ kdelibs5-dev, libkonq5-dev, libphonon-dev
 Standards-Version: 3.8.1
 Homepage:  http://kmess.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kmess/?op=log

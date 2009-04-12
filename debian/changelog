@@ -4,6 +4,7 @@ kmess (2.0~beta1-1) UNRELEASED; urgency=low
   * Update Build-Depends: kdelibs5-dev (KDE4 release)
   * Update Standards Version 3.8.1. Add Homepage: Vcs: headers
   * Build Depends: libkonq5-dev - context menu integration with Konqueror
+  * Update other Build-Depends:
 
  -- Mark Purcell <msp@debian.org>  Sun, 12 Apr 2009 13:29:05 +1000
 
