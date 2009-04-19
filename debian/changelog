@@ -1,8 +1,15 @@
 kmess (2.0~beta1-2) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  
+  +++ Changes by George Kiagiadakis:
 
- -- Mark Purcell <msp@debian.org>  Sun, 12 Apr 2009 14:04:03 +1000
+  * Fix FTBFS (Closes: #524085)
+    - Add patch 01_dont-build-depend-on-libqca2-plugin-ossl.diff.
+    - Depend on libqca2-plugin-ossl.
+    - Build-depend on libxss-dev.
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Mon, 20 Apr 2009 02:10:07 +0300
 
 kmess (2.0~beta1-1) unstable; urgency=low
 

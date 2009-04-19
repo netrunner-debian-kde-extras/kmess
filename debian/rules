@@ -6,6 +6,7 @@ URL = http://heanet.dl.sourceforge.net/$(DEB_SOURCE_PACKAGE)/$(UPFILENAME)
 
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
+include /usr/share/cdbs/1/rules/simple-patchsys.mk
 
 DEB_INSTALL_MANPAGES_kmess := debian/kmess.1
 DEB_INSTALL_MENU_ARGS := debian/kmess.menu
