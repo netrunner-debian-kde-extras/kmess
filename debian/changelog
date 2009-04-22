@@ -1,3 +1,9 @@
+kmess (2.0~beta1-3) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Mark Purcell <msp@debian.org>  Thu, 23 Apr 2009 09:26:04 +1000
+
 kmess (2.0~beta1-2) unstable; urgency=low
 
   * Add Build-Depends: debhelper >=7
