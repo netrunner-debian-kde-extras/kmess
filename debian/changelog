@@ -1,7 +1,7 @@
-kmess (2.0~beta1-2) UNRELEASED; urgency=low
+kmess (2.0~beta1-2) unstable; urgency=low
 
-  * NOT RELEASED YET
-  
+  * Add Build-Depends: debhelper >=7
+
   +++ Changes by George Kiagiadakis:
 
   * Fix FTBFS (Closes: #524085)
@@ -9,7 +9,7 @@ kmess (2.0~beta1-2) UNRELEASED; urgency=low
     - Depend on libqca2-plugin-ossl.
     - Build-depend on libxss-dev.
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Mon, 20 Apr 2009 02:10:07 +0300
+ -- Mark Purcell <msp@debian.org>  Thu, 23 Apr 2009 09:19:48 +1000
 
 kmess (2.0~beta1-1) unstable; urgency=low
 
