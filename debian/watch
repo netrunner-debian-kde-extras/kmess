@@ -2,5 +2,5 @@ version=3
 #http://prdownloads.sourceforge.net/kmess/kmess-(.*)\.tar\.gz
 
 # Find new files on sourceforge, for debscripts >= 2.9
-opts="uversionmangle=s/beta/~beta/" \
+opts="dversionmangle=s/~beta/beta/" \
  http://sf.net/kmess/kmess-(.*)\.tar\.gz debian svn-upgrade
