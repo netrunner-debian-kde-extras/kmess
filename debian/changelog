@@ -2,8 +2,9 @@ kmess (2.0~beta2-1) unstable; urgency=low
 
   * New upstream release 
     - Fixes "the '">' characters appears" (Closes: #530358)
+  * Add Build-Depends: libgif-dev
 
- -- Mark Purcell <msp@debian.org>  Tue, 26 May 2009 22:56:38 +1000
+ -- Mark Purcell <msp@debian.org>  Tue, 26 May 2009 22:58:41 +1000
 
 kmess (2.0~beta1-2) unstable; urgency=low
 
