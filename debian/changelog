@@ -1,3 +1,9 @@
+kmess (2.0-1) unstable; urgency=low
+
+  * New upstream release 
+
+ -- Mark Purcell <msp@debian.org>  Wed, 02 Sep 2009 07:40:00 +1000
+
 kmess (2.0~beta2-1) unstable; urgency=low
 
   * New upstream release 
