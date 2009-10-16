@@ -1,3 +1,9 @@
+kmess (2.0-2) UNRELEASED; urgency=low
+
+  * Update debian/watch to handle rc/beta & alpha upstream
+
+ -- Mark Purcell <msp@debian.org>  Sat, 17 Oct 2009 10:33:50 +1100
+
 kmess (2.0-1) unstable; urgency=low
 
   * New upstream release 
