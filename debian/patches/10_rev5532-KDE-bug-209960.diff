@@ -1,0 +1,13 @@
+--- src/settings/chatstylepage.cpp	2009/10/13 23:15:52	5531
++++ src/settings/chatstylepage.cpp	2009/10/14 09:25:50	5532
+@@ -92,8 +92,8 @@
+   // Configure the preview form of the "chatting" widget
+ 
+   // Insert a KHTMLPart in the placeholder
+-  chatMessageView_ = new ChatMessageView( khtmlPlaceholder_ );
+-
++  chatMessageView_ = new ChatMessageView( this );
++  
+   // Create a layout to maximize the KHTMLPart
+   QBoxLayout *layout = new QHBoxLayout( khtmlPlaceholder_ );
+   layout->addWidget( chatMessageView_->view() );
