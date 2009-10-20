@@ -1,10 +1,10 @@
-kmess (2.0-2) UNRELEASED; urgency=low
+kmess (2.0-2) unstable; urgency=low
 
-  * Update debian/watch to handle rc/beta & alpha upstream
+  * Update debian/watch to handle rc/beta & alpha upstream 
   * Include upstream rev5532 - Work around KDE bug #209960 that caused a
     crash when closing the account settings dialog.  (Closes: #551061)
 
- -- Mark Purcell <msp@debian.org>  Tue, 20 Oct 2009 18:35:36 +1100
+ -- Mark Purcell <msp@debian.org>  Tue, 20 Oct 2009 19:11:36 +1100
 
 kmess (2.0-1) unstable; urgency=low
 
