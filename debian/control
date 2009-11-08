@@ -6,7 +6,7 @@ Uploaders: Mario Iseli <admin@marioiseli.com>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 7), cdbs, zlib1g-dev, patchutils, automoc, libxml2-dev, libxslt1-dev, libqca2-dev,
  pkg-kde-tools, kdelibs5-dev, libkonq5-dev, libphonon-dev, libxss-dev, libgif-dev
 Standards-Version: 3.8.3
-Homepage:  http://kmess.sourceforge.net
+Homepage: http://kmess.sourceforge.net
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kmess/?op=log
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kmess/trunk/
 
