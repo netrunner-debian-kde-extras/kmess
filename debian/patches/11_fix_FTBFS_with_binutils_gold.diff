@@ -1,0 +1,12 @@
+# Link against ${X11_LIBRARIES} in order to avoid an FTBFS with binutils-gold.
+--- kmess.orig/src/CMakeLists.txt	2009-11-08 15:11:48.000000000 +0100
++++ kmess/src/CMakeLists.txt	2009-11-08 15:13:45.000000000 +0100
+@@ -192,7 +192,7 @@
+ 
+ # Add XScreensaver library for away-idle detection.
+ IF( X11_Xscreensaver_FOUND )
+-  SET(kmess_LIBS    ${kmess_LIBS} ${X11_Xscreensaver_LIB})
++  SET(kmess_LIBS    ${kmess_LIBS} ${X11_Xscreensaver_LIB} ${X11_LIBRARIES})
+ ENDIF( X11_Xscreensaver_FOUND )
+ 
+ # Set our new shiny KDE debug number to be the default

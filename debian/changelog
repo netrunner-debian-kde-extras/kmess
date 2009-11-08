@@ -1,3 +1,11 @@
+kmess (2.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by José Manuel Santamaría Lema:
+
+  * Fix FTBFS with binutils-gold. (Closes: #555020)
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sun, 08 Nov 2009 16:31:48 +0100
+
 kmess (2.0-2) unstable; urgency=low
 
   * Update debian/watch to handle rc/beta & alpha upstream 
