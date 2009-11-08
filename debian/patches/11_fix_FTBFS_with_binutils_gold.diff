@@ -1,4 +1,5 @@
 # Link against ${X11_LIBRARIES} in order to avoid an FTBFS with binutils-gold.
+# Forwarded: http://kmess.org/board/viewtopic.php?f=10&t=4282
 --- kmess.orig/src/CMakeLists.txt	2009-11-08 15:11:48.000000000 +0100
 +++ kmess/src/CMakeLists.txt	2009-11-08 15:13:45.000000000 +0100
 @@ -192,7 +192,7 @@
