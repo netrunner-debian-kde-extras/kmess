@@ -7,7 +7,7 @@
  # Add XScreensaver library for away-idle detection.
  IF( X11_Xscreensaver_FOUND )
 -  SET(kmess_LIBS    ${kmess_LIBS} ${X11_Xscreensaver_LIB})
-+  SET(kmess_LIBS    ${kmess_LIBS} ${X11_Xscreensaver_LIB} ${X11_LIBRARIES})
++  SET(kmess_LIBS    ${kmess_LIBS} ${X11_Xscreensaver_LIB} ${X11_X11_LIB})
  ENDIF( X11_Xscreensaver_FOUND )
  
  # Set our new shiny KDE debug number to be the default
