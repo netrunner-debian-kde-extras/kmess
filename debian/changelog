@@ -1,3 +1,11 @@
+kmess (2.0.2-1) UNRELEASED; urgency=low
+
+  * New upstream release
+  * Update Homepage: http://kmess.org
+  * Add Build-Depends: libphonon-dev | libqt4-phonon-dev
+
+ -- Mark Purcell <msp@debian.org>  Sat, 05 Dec 2009 18:42:52 +1100
+
 kmess (2.0-3) unstable; urgency=low
 
   +++ Changes by José Manuel Santamaría Lema:
