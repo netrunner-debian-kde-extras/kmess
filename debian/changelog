@@ -1,10 +1,12 @@
-kmess (2.0.2-1) UNRELEASED; urgency=low
+kmess (2.0.2-1) unstable; urgency=low
 
-  * New upstream release
+  * New upstream release 
+    - Fixes friendly names (LP: #485640)
   * Update Homepage: http://kmess.org
-  * Add Build-Depends: libphonon-dev | libqt4-phonon-dev
+  * Add Build-Depends: libphonon-dev | libqt4-phonon-dev (ubuntu friendly)
+  * kmess.1 fix lintian:hyphen-used-as-minus-sign
 
- -- Mark Purcell <msp@debian.org>  Sat, 05 Dec 2009 18:42:52 +1100
+ -- Mark Purcell <msp@debian.org>  Sat, 05 Dec 2009 21:19:26 +1100
 
 kmess (2.0-3) unstable; urgency=low
 
