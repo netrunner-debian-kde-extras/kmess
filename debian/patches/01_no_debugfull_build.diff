@@ -1,0 +1,14 @@
+Description: default build should not bet set to debugfull
+Author: Fathi Boudra <fabo@debian.org>
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -167,7 +167,7 @@ ENDIF( CMAKE_COMPILER_IS_GNUCXX )
+ # - relwithdebinfo  (release with debug info)
+ # - minsizerel      (minsize release)
+ # Uncomment the next line to always force building in full debug mode
+-SET( CMAKE_BUILD_TYPE debugfull )
++#SET( CMAKE_BUILD_TYPE debugfull )
+ 
+ # Enable the KMess debug output when compiling a debug build
+ IF( CMAKE_BUILD_TYPE STREQUAL debugfull OR KMESS_DEBUG_OUTPUT EQUAL 1 )

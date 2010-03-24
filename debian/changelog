@@ -1,3 +1,24 @@
+kmess (2.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  [ Fathi Boudra]
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Add patches:
+    - 01_no_debugfull_build.diff
+      default build should not bet set to debugfull
+    - 02_no_desktop_encoding_key.diff
+      remove deprecated encoding key from desktop file
+    - 03_comments_cleanup.diff
+      fix comments related to Debian package names
+  * Drop 01_dont-build-depend-on-libqca2-plugin-ossl.diff - not needed anymore.
+  * Cleanup build dependencies:
+    - Remove libqca2-dev, libphonon-dev, libqt4-phonon-dev and patchutils.
+    - Add libgcrypt11-dev.
+  * Bump to Standars-Version 3.8.4 (no changes needed).
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Wed, 24 Mar 2010 13:11:52 +0100
+
 kmess (2.0.2-1) unstable; urgency=low
 
   * New upstream release 

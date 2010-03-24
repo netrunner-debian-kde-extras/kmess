@@ -4,9 +4,8 @@ FILENAME = $(DEB_SOURCE_PACKAGE)_$(DEB_UPSTREAM_VERSION).orig.tar.gz
 UPFILENAME = $(DEB_SOURCE_PACKAGE)-$(shell echo $(DEB_UPSTREAM_VERSION) | sed 's/~//').tar.gz
 URL = http://heanet.dl.sourceforge.net/$(DEB_SOURCE_PACKAGE)/$(UPFILENAME)
 
-include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/pkg-kde-tools/makefiles/1/cdbs/kde.mk
-include /usr/share/cdbs/1/rules/simple-patchsys.mk
+include /usr/share/cdbs/1/rules/debhelper.mk
 
 DEB_INSTALL_MANPAGES_kmess := debian/kmess.1
 DEB_INSTALL_MENU_ARGS := debian/kmess.menu

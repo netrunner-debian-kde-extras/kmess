@@ -1,2 +1,5 @@
-?package(kmess):needs="X11" section="Applications/Network/Communication"\
-  title="kmess" command="/usr/bin/kmess"
+?package(kmess): \
+    needs="X11" \
+    section="Applications/Network/Communication" \
+    title="kmess" \
+    command="/usr/bin/kmess"
