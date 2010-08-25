@@ -1,3 +1,9 @@
+kmess (2.0.3-3) UNRELEASED; urgency=low
+
+  * Remove Mario Iseli from Uploaders (MIA).
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 25 Aug 2010 21:35:33 +0200
+
 kmess (2.0.3-2) unstable; urgency=low
 
   [ Pino Toscano ] 
