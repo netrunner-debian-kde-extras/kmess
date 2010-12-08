@@ -5,6 +5,9 @@ kmess (2.0.5-1) UNRELEASED; urgency=low
   [ Ana Beatriz Guerrero Lopez ]
   * Remove Mario Iseli from Uploaders (MIA).
 
+  [ George Kiagiadakis ]
+  * Drop all patches; applied upstream.
+
  -- Mark Purcell <msp@debian.org>  Sat, 06 Nov 2010 09:07:36 +1100
 
 kmess (2.0.3-2) unstable; urgency=low
