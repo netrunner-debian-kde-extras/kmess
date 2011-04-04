@@ -1,4 +1,4 @@
-kmess (2.0.6.1-1) UNRELEASED; urgency=low
+kmess (2.0.6.1-1) unstable; urgency=low
 
   * New Upstream Release (Closes: #602938, #610153).
 
