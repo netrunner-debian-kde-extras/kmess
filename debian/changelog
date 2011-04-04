@@ -1,6 +1,6 @@
 kmess (2.0.6.1-1) UNRELEASED; urgency=low
 
-  * New Upstream Release
+  * New Upstream Release (Closes: #602938, #610153).
 
   [ Ana Beatriz Guerrero Lopez ]
   * Remove Mario Iseli from Uploaders (MIA).
