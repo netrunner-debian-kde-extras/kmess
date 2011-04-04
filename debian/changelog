@@ -9,6 +9,7 @@ kmess (2.0.6.1-1) UNRELEASED; urgency=low
   * Drop all patches; applied upstream.
   * Add myself to uploaders.
   * Drop dependency on libqca2-plugin-ossl; kmess now uses gcrypt.
+  * Bump standards-version to 3.9.1; no changes required.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 04 Apr 2011 14:28:04 +0300
 

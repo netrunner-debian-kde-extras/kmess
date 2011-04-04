@@ -6,7 +6,7 @@ Uploaders: Mark Purcell <msp@debian.org>, George Kiagiadakis <kiagiadakis.george
 Build-Depends: cdbs, debhelper (>= 7), automoc, pkg-kde-tools (>= 0.6.4), cmake,
  kdelibs5-dev, libgcrypt11-dev, libgif-dev, libkonq5-dev, libxml2-dev,
  libxslt1-dev, libxss-dev, zlib1g-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://kmess.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kmess/?op=log
 Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kmess/trunk/
