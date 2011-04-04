@@ -13,7 +13,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kmess/trunk/
 
 Package: kmess
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libqca2-plugin-ossl
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: konqueror
 Description: MSN messenger for KDE
  An alternative MSN Messenger chat client for Linux. It allows Linux users
