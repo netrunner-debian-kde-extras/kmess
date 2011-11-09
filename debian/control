@@ -9,8 +9,8 @@ Build-Depends: cdbs, debhelper (>= 7), automoc, pkg-kde-tools (>= 0.6.4), cmake,
  libxslt1-dev, libxss-dev, zlib1g-dev
 Standards-Version: 3.9.2
 Homepage: http://kmess.org
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/kde-extras/kmess/?op=log
-Vcs-Svn: svn://svn.debian.org/pkg-kde/kde-extras/kmess/trunk/
+Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/kmess.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/kmess.git;a=summary
 
 Package: kmess
 Architecture: any
