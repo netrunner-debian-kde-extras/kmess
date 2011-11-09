@@ -1,4 +1,4 @@
-kmess (2.0.6.1-2) UNRELEASED; urgency=high
+kmess (2.0.6.1-2) unstable; urgency=high
 
   * Add follow-location-redirects.diff, this makes KMess usable with the latest
     changes in MSN servers. (Closes: #648080)
@@ -7,7 +7,7 @@ kmess (2.0.6.1-2) UNRELEASED; urgency=high
   * Add myself to Uploaders.
   * Urgency is high because this upload fixes an RC bug which affects testing.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 09 Nov 2011 14:28:58 +0100
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Wed, 09 Nov 2011 15:31:56 +0100
 
 kmess (2.0.6.1-1) unstable; urgency=low
 
