@@ -1,3 +1,4 @@
 01_no_debugfull_build.diff
 02_no_desktop_encoding_key.diff
 03_comments_cleanup.diff
+follow-location-redirects.diff
