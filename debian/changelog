@@ -3,6 +3,8 @@ kmess (2.0.3-2+squeeze1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Add follow-location-redirects.diff, this makes KMess usable with the latest
     changes in MSN servers.
+  * Add bad-url-commands.diff, this fixes a bug which makes KMess unable to
+    login to the MSN network.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Mon, 30 Jan 2012 22:10:34 +0100
 
