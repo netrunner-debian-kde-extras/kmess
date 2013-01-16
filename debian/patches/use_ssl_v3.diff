@@ -1,0 +1,31 @@
+Author: José Manuel Santamaría Lema <panfaust@gmail.com>
+Description: This patch forces KMess to use SSLv3.
+ This patch is needed because with recent versions of openssl kmess disconnects
+ and connects again each minute: http://bugs.debian.org/697918
+ Downgrading openssl to an older version solves the problem, however, this isn't
+ probably a bug in openssl but in the MSN servers, see:
+ http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=666012#31
+ .
+ For the record, emesene had the same problem and their upstream developers
+ solved the problem doing the same, just using SSLv3.
+--- a/src/network/soap/httpsoapconnection.cpp
++++ b/src/network/soap/httpsoapconnection.cpp
+@@ -31,6 +31,7 @@
+ #include <QNetworkRequest>
+ #include <QNetworkReply>
+ #include <QSslError>
++#include <QSslConfiguration>
+ 
+ #include <KLocale>
+ 
+@@ -353,6 +354,10 @@ void HttpSoapConnection::sendNextRequest
+     request.setRawHeader( "SOAPAction", quotedAction.toLatin1() );
+   }
+ 
++  QSslConfiguration ssl_config = request.sslConfiguration();
++  ssl_config.setProtocol(QSsl::SslV3);
++  request.setSslConfiguration(ssl_config);
++
+   http_->post( request, contents );
+ 
+   // Start the response timer
